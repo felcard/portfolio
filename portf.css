@@ -108,7 +108,7 @@
     height: 100vh;
     background-color: #000;
     background-image: linear-gradient(90deg, rgba(255, 0, 0, 0), black 60%),
-      url("https://dolcemaria.co.uk/portf/director.jpeg");
+      url("portf/director.jpeg");
     background-size: cover;
     background-position: left bottom;
   }
