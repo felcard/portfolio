@@ -1,0 +1,251 @@
+body {
+  background-color: wheat;
+  margin: 0;
+  font-family: licorice;
+}
+#safe {
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  background-color: wheat;
+  z-index: 1;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.logo-menu {
+  position: relative;
+  margin: auto;
+  max-width: 600px;
+  background-color: tan;
+  border-radius: 15px;
+  display: flex;
+}
+
+#logo-photo {
+  height: 62px;
+}
+#header-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 140px;
+  box-sizing: border-box;
+  margin-bottom: -45px;
+  left: 10px;
+}
+#naveg {
+  width: 100%;
+  position: relative;
+}
+#nav-bar {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.nav-link {
+  width: 70px;
+  font-family: Licorice;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .logo-menu {
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    max-width: 160px;
+    padding-bottom: 40px;
+  }
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40px;
+  }
+  #header-img {
+    left: 0px;
+    max-width: 120px;
+  }
+  #the-rest {
+    position: relative;
+    top: 180px;
+  }
+  #safe {
+    height: 215px;
+  }
+}
+a {
+  color: saddlebrown;
+  text-decoration: none;
+}
+#main-title {
+  font-size: 50px;
+  color: maroon;
+}
+#sub-title {
+  font-size: 40px;
+  color: saddlebrown;
+  text-align: center;
+  padding-top: 10px;
+}
+#form {
+  position: relative;
+  width: 100%;
+}
+#tester {
+  width: 195px;
+  margin: auto;
+  text-align: center;
+}
+.email-loc {
+  font-size: 30px;
+  line-height: 1.2;
+  position: relative;
+}
+.input-dat {
+  width: 190px;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  line-height: 1;
+  background-color: burlywood;
+  font-family: licorice;
+  font-size: 30px;
+}
+.input-btn {
+  display: block;
+  width: 100px;
+  color: #8b4513;
+  font-weight: 600;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  line-height: 1;
+  background-color: burlywood;
+  font-family: licorice;
+  font-size: 30px;
+  padding-left: 2px;
+}
+.input-btn:hover {
+  margin-bottom: -2px;
+  color: wheat;
+  border: 1px solid white;
+  cursor: pointer;
+}
+#info-sec {
+  position: relative;
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+}
+i {
+  color: saddlebrown;
+}
+.icon {
+  width: 10%;
+}
+.text {
+  width: 90%;
+}
+p {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 30px;
+  line-height: 1;
+}
+.text > h2 {
+  margin: 0;
+  font-size: 35px;
+}
+.block {
+  display: flex;
+  align-items: start-flex;
+  padding-top: 20px;
+}
+.vid-loc {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  top: 30px;
+  max-width: 600px;
+  background-color: burlywood;
+  border-radius: 20px;
+}
+#video {
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#our-fee {
+  padding-top: 30px;
+  position: relative;
+  max-width: 632px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  #our-fee {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.fee-block {
+  margin-top: 20px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid burlywood;
+  border-radius: 15px;
+}
+li {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 30px;
+  line-height: 1;
+}
+.fee-h2 {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 10px;
+  margin-bottom: -10px;
+  margin-top: 5px;
+  border-bottom: 1px solid burlywood;
+}
+.price-op {
+  position: relative;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.li-st {
+  list-style: none;
+}
+#ul-stilo {
+  display: flex;
+  justify-content: space-around;
+  width: 270px;
+  line-height: 1;
+}
+#foota {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: tan;
+  width: 100%;
+  line-height: 1;
+}

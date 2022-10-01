@@ -1,0 +1,244 @@
+:root {
+  --bar-color: #4d4d4d;
+  --text-color: goldenrod;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+body {
+  background: #0d0d0d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}*/
+a {
+  text-decoration: none;
+  color: var(--bar-color);
+}
+html {
+  box-sizing: border-box;
+  font-size: 6.25%;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 90rem;
+  font-family: Raleway Dots;
+  letter-spacing: -5rem;
+  font-weight: 500;
+}
+#navbar {
+  position: fixed;
+  width: 100%;
+}
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 35rem;
+  font-family: dorsa, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1rem;
+}
+#mover {
+  padding-left: 43rem;
+}
+#navbar ul li {
+  padding: 10rem 10rem 10rem 5rem;
+}
+.li-con {
+  top: 45rem;
+  position: absolute;
+  flex-direction: column;
+  width: 60rem;
+  margin-left: 0;
+  line-height: 15rem;
+}
+.li-border {
+  border-bottom: 1rem dotted goldenrod;
+  width: 40rem;
+  padding-left: 5rem;
+}
+.li-border-top {
+  border-bottom: 1rem dotted goldenrod;
+  width: 40rem;
+  padding-left: 5rem;
+}
+#navbar ul li ul {
+  display: none;
+}
+#navbar ul a {
+  transition: transform 0.01s ease-out;
+}
+#navbar ul a:hover {
+  color: var(--text-color);
+  border-bottom: 1rem dotted goldenrod;
+  transform: translateY(2px);
+}
+#contact-move {
+  transition: transform 0.01s ease-out;
+}
+#contact-move:hover {
+  transform: translateY(2px);
+}
+#navbar ul li:hover ul {
+  display: block;
+  color: var(--text-color);
+}
+#welcome-section {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(90deg, rgba(255, 0, 0, 0), black 60%), url("img/director.jpeg");
+  background-size: cover;
+  background-position: left bottom;
+}
+.title {
+  margin-top: 80rem;
+  width: 30%;
+  height: 100%;
+  line-height: 0.9;
+}
+.title-non {
+  width: 30%;
+}
+#spacer {
+  width: 70%;
+}
+.stage-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+}
+#non-visible {
+  visibility: hidden;
+}
+.pro-style {
+  padding-top: 50rem;
+  width: 70%;
+  min-width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-tile {
+  box-sizing: border-box;
+  width: 50%;
+  border: solid 1px transparent;
+  opacity: 0.8;
+}
+.project-img {
+  width: 100%;
+  object-fit: cover;
+  border: dotted 1px var(--text-color);
+  box-sizing: border-box;
+}
+.project-title {
+  color: var(--text-color);
+  font-family: Anton;
+  font-size: 20rem;
+  text-align: center;
+}
+.project-tile:hover .project-title {
+  transition: color 0.3s ease-out;
+  color: gold;
+  text-shadow: 1px 1px black;
+}
+@media (max-width: 50em) {
+  .pro-style {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+  }
+  .project-tile {
+    box-sizing: border-box;
+    width: 460rem;
+    opacity: 0.8;
+  }
+}
+#foota {
+  margin-top: 30rem;
+  text-align: center;
+  font-size: 30rem;
+  color: white;
+  font-family: Raleway Dots;
+  background: black;
+  font-weight: 100;
+}
+@media (orientation: portrait) {
+  .pro-style {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+  }
+  .project-tile {
+    box-sizing: border-box;
+    width: 100%;
+    opacity: 0.8;
+  }
+  .stage-section {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #non-visible {
+    visibility: visible;
+  }
+  .title {
+    width: 100%;
+    display: none;
+  }
+  h1 {
+    color: var(--text-color);
+    font-size: 100rem;
+    font-family: Raleway Dots;
+    letter-spacing: -4px;
+    font-weight: 500;
+  }
+  .title-non {
+    width: 95%;
+    text-align: right;
+    line-height: 0.9;
+    margin-top: 120rem;
+  }
+  #navbar {
+    z-index: 5;
+  }
+  #navbar ul {
+    font-size: 100rem;
+    letter-spacing: 2px;
+    font-family: dorsa, sans-serif;
+  }
+  .li-con {
+    top: 110rem;
+    width: 100rem;
+    margin-left: 0;
+    line-height: 70rem;
+  }
+  a {
+    text-shadow: 1px 1px black;
+  }
+  #foota {
+    font-size: 80rem;
+  }
+}
+/* this image is a background alternative
+/* https://th.bing.com/th/id/R.0c05e1ee47cbe12292f9edfa99d61408?rik=WLsFmO3DzDvgAw&pid=ImgRaw&r=0   */

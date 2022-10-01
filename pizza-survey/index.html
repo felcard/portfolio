@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<html>
+  <link href="https://fonts.googleapis.com/css?family=Aladin|Oswald|Oregano|Cookie|Barlow Condensed|Dosis" rel="stylesheet" type="text/css">
+  <head>
+  </head>
+  <body>
+    <h1 id="title">Your Choice of Pizza</h1>
+    <p id="description" class="page-description">Help us in our quest to find what is the best pizza in the world</p>
+    <div class="container">
+    <form id="survey-form">
+      <label for="name" id="name-label">Name
+      <input class="form-entry" type="text" id="name" name="name" placeholder="Enter your name" required>
+      </label>
+      <label for="email" id="email-label">Email
+      <input class="form-entry" type="email" id="email" name="email" placeholder="Enter your email address" required>
+      </label>
+      <div class="option-group">
+            <label style="width:50%" for="number" id="number-label">Age<br>
+      <input class="form-entry" type="number" min="15" max="99" id="number" name="number" placeholder="Enter your Age" required>
+      </label>
+      <div id="pizza-option" style="width: 50%">
+      <p>Select your option of pizza</p>
+      <select class="form-entry" id="dropdown" name="dropdown">
+        <option disabled selected value>Choose your pizza</option>
+        <option value="Marinara">Marinara</option>
+        <option value="Margherita">Margherita</option>
+        <option value="Nduja">Nduja</option>
+        <option value="Napoletana">Napoletana</option>
+        <option value="Buffala">Buffala</option>
+      </select>
+      </div>
+      </div><br>
+      <div id ="radbtn-options" class="option-group">
+      <div id="pizza-style" style="width: 50%">
+        <p>What style of Pizza you prefer</p>
+        <label for="Napoletana-top" id="Napoletana" class="label-radio">
+          <input id="Napoletana-top" class="radio-button" value="Napoletana" type="radio" name="pizza-type"/>Napoletana
+        </label>
+        <label for="Romana-top" id="Romana" class="label-radio">
+          <input id="Romana-top" class="radio-button" value="Romana" type="radio" name="pizza-type"/>Romana
+        </label>
+        <label for="Siciliana-top" id="Siciliana" class="label-radio">
+          <input id="Siciliana-top" class="radio-button" value="Siciliana" type="radio" name="pizza-type"/>Siciliana
+        </label>
+      </div>
+      <div id="topping-style" style="width: 50%">
+         <p>What Toppings you prefer</p>
+        <label for="Fior-top" id="Fior" class="label-radio">
+          <input id="Fior-top" class="radio-button" value="Fior" type="checkbox" name="topping-type"/>Fior di Latte
+        </label>
+        <label for="Buffala-top" id="Buffala" class="label-radio">
+          <input id="Buffala-top" class="radio-button" value="Buffala" type="checkbox" name="topping-type"/>Buffala
+        </label>
+        <label for="Nduja-top" id="Nduja" class="label-radio">
+          <input id="Nduja-top" class="radio-button" value="Nduja" type="checkbox" name="topping-type"/>Nduja
+        </label>
+        <label for="Burrata-top" id="Burrata" class="label-radio">
+          <input id="Burrata-top" class="radio-button" value="Burrata" type="checkbox" name="topping-type"/>Burrata
+        </label>
+        <label for="Olive-top" id="Olive" class="label-radio">
+          <input id="Olive-top" class="radio-button" value="Olive" type="checkbox" name="topping-type"/>Olive
+        </label>
+      </div>
+      </div><br>
+        <textarea id="feedback" class="form-entry" name="opinion" placeholder= "Leave your opinion">
+      </textarea>
+      <button type="submit" id="submit" class="submit-wise">Click here to post your creation
+      </button>
+    </form>
+    </div>
+  </body>
+</html>
+
+</body>
+</html>

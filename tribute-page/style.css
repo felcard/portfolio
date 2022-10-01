@@ -1,0 +1,35 @@
+#main{
+  text-align: center;
+   background-color: moccasin;
+}
+#title{
+  color: maroon;
+  font-family: Pacifico;
+  background-color: darkkhaki;
+}
+#img-div{
+  background-color: Moccasin;
+}
+#img-caption{
+  font-family: Oswald;
+}
+#tribute-info{
+  font-family: Oswald;
+  color: maroon;
+  text-align: justify;
+  padding: 20px 20px 20px 30px;
+  margin: auto;
+  max-width: 600px;
+}
+#image{
+  margin: auto;
+  display: block;
+  max-width: 100%;  height: auto;
+}
+#tribute-link{
+  font-family: Oswald;
+}
+body{
+  background-color: moccasin;
+  margin: 0;
+}

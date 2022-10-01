@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<main id="main-doc">
+  <nav id="navbar">
+    <header id="main-head"><b>Python Documentation</b></header><br>
+    <a href="#Why_Python" class="nav-link">Why Python</a>
+    <a href="#Python_Syntax" class="nav-link">Python Syntax</a>
+    <a href="#Quick_Start" class="nav-link">Quick Start</a>
+    <a href="#Python_Command_Line" class="nav-link">Python Command Line</a>
+    <a href="#Python_Syntax" class="nav-link">Python Syntax</a>
+    <a href="#Data_Types" class="nav-link">Data Types</a>
+    <a href="#Numbers" class="nav-link">Numbers</a>
+    <a href="#Strings" class="nav-link">Strings</a>
+  </nav>
+  <div id="the-rest">
+  <section class="main-section" id="Why_Python">
+    <header>Why Python</header>
+    <p>Python is a popular programming language. Python can be used on a server to create web applications and can be used alongside software to create workflows.
+      Python can connect to database systems and also read and modify files.
+      Python can be used to handle big data and perform complex mathematics and rapid prototyping, or for production-ready software development.</p>
+    <ul>
+      <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+      <li>Python has a simple syntax similar to the English language.</li>
+      <li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+      <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+      <li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Python_Syntax">
+    <header>Python Syntax</header>
+    <p>Python was designed for readability, and has some similarities to the English language with influence from mathematics, it
+      uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+      Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</p>
+    <h5><u>Example</u></h5>
+    <code>print("Hello, World!")</code>
+  </section>
+  <section class="main-section" id="Quick_Start">
+    <header>Quick Start</header>
+    <p>Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+      The way to run a python file is like this on the command line:</p>
+    <code>C:\Users\Your Name>python helloworld.py</code>
+    <p>Where "helloworld.py" is the name of your python file.
+      Let's write our first Python file, called helloworld.py, which can be done in any text editor.<br>helloworld.py</p>
+    <code>print("Hello, World!")</code>
+  </section>
+  <section class="main-section" id="Python_Command_Line">
+    <header>Python Command Line</header>
+    <p>To test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. This is made possible because Python can be run as a command line itself.
+      Type the following on the Windows, Mac or Linux command line:</p>
+    <code>C:\Users\Your Name>python</code>
+    <p>From there you can write any python, including our hello world example from earlier in the tutorial, which will write "Hello, World!" in the command line:</p>
+    <code>C:\Users\Your Name>python
+      Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>> print("Hello, World!")<br><br>C:\Users\Your Name>python
+      Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>> print("Hello, World!")
+      Hello, World!</code>
+  </section>
+  <section class="main-section" id="Python_Syntax">
+    <header>Python Syntax</header>
+    <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line or by creating a python file on the server, using the .py file extension, and running it in the Command Line</p>
+    <h5><u>Python Identation</u></h5>
+    <p>Indentation refers to the spaces at the beginning of a code line.
+      Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+      Python uses indentation to indicate a block of code.</p>
+  </section>
+  <section class="main-section" id="Data_Types">
+    <header>Data Types</header>
+    <p>In programming, data type is an important concept.
+      Variables can store data of different types, and different types can do different things.
+      Python has the following data types built-in by default, in these categories:</p>
+    <ul>
+      <li>Text Type: <code>str</code></li>
+      <li>Numeric Types: <code>int, float, complex</code></li>
+      <li>Sequence Types: <code>list, tuple, range</code></li>
+      <li>Mapping Type: <code>dict</code></li>
+      <li>Set Types: <code>set, frozenset</code></li>
+      <li>Boolean Type: <code>bool</code></li>
+      <li>Binary Types: <code>bytes, bytearray, memoryview</code></li>
+    </ul>
+  </section>
+  <section class="main-section" id="Numbers">
+    <header>Numbers</header>
+    <p>There are three numeric types in Python:</p>
+    <ul>
+      <li>"int": Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.</li>
+      <li>"float": Float, or "floating point number" is a number, positive or negative, containing one or more decimals.</li>
+      <li>"complex": Complex numbers are written with a "j" as the imaginary part, example; x=3+5j </li>
+    </ul>
+  </section>
+  <section class="main-section" id="Strings">
+    <header>Strings</header>
+    <p>Strings in python are surrounded by either single quotation marks, or double quotation marks.
+      'hello' is the same as "hello".
+      You can display a string literal with <code>the print()</code> function:<br>
+      <code>print("Hello")<br>
+        print('Hello')</code>
+      <br>Python has a built-in string class named "str" with many handy features (there is an older module named "string" which you should not use). String literals can be enclosed by either double or single quotes, although single quotes are more commonly used. Backslash escapes work the usual way within both single and double quoted literals -- e.g. \n \' \". A double quoted string literal can contain single quotes without any fuss (e.g. "I didn't do it") and likewise single quoted string can contain double quotes. A string literal can span multiple lines, but there must be a backslash \ at the end of each line to escape the newline. String literals inside triple quotes, """ or ''', can span multiple lines of text.
+      <br>
+      Python strings are "immutable" which means they cannot be changed after they are created (Java strings also use this immutable style). Since strings can't be changed, we construct *new* strings as we go to represent computed values. So for example the expression ('hello' + 'there') takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.
+    </p>
+  </section>
+  </div>
+</main>
+
+</body>
+</html>

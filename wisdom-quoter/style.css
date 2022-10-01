@@ -1,0 +1,40 @@
+*{color:#5a520c}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  background: khaki !important;
+}
+#quote-box {
+  padding: 5rem;
+}
+#text {
+  font-family: Courgette;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+#author {
+  padding-top: 50px;
+  font-family: Oswald;
+  font-size: 2.5rem;
+}
+#order{
+display:flex;
+justify-content:space-between;
+width:30em;
+}
+#tweet-quote{
+  color:#b5a517;
+  font-size:4rem;
+}
+#new-quote {
+  background: transparent;
+  //float: right;
+  font-family: Neucha;
+  border-color:#b5a517;
+}
+#new-quote:hover{
+  border-color:#f3c258;
+}
