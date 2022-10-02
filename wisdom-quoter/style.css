@@ -1,14 +1,16 @@
 *{color:#5a520c}
 body {
+  width:100%;
+  flex-wrap:wrap;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction:column;
   background: khaki !important;
 }
 #quote-box {
-  padding: 5rem;
+  text-align:center;
+  width:100%;
 }
 #text {
   font-family: Courgette;
@@ -21,17 +23,20 @@ body {
   font-size: 2.5rem;
 }
 #order{
-display:flex;
-justify-content:space-between;
-width:30em;
+  align-self:flex-end;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  padding-bottom:10vh;
 }
 #tweet-quote{
   color:#b5a517;
   font-size:4rem;
+  margin-right:50px;
 }
 #new-quote {
+  margin-left:50px;
   background: transparent;
-  //float: right;
   font-family: Neucha;
   border-color:#b5a517;
 }
