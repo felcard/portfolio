@@ -69,7 +69,10 @@ h1 {
   letter-spacing: 1rem;
 }
 #mover {
-  padding-left: 23rem;
+}
+#contact-move {
+  margin-left: 1em;
+  transition: transform 0.01s ease-out;
 }
 #navbar ul li {
   padding: 10rem 10rem 10rem 5rem;
@@ -102,10 +105,6 @@ h1 {
   color: var(--text-color);
   border-bottom: 1rem dotted goldenrod;
   transform: translateY(2px);
-}
-#contact-move {
-  margin-left: 2em;
-  transition: transform 0.01s ease-out;
 }
 #contact-move:hover {
   transform: translateY(2px);
@@ -159,6 +158,7 @@ h1 {
   justify-content: flex-end;
   align-items: flex-start;
   width: 100%;
+  min-height: 96.5vh;
 }
 #non-visible {
   visibility: hidden;
@@ -207,7 +207,6 @@ h1 {
   }
 }
 #foota {
-  bottom: 0rem;
   text-align: center;
   font-size: 30rem;
   color: white;
@@ -246,7 +245,7 @@ h1 {
     font-weight: 500;
   }
   .title-non {
-    width: 55%;
+    width: 100%;
     text-align: right;
     line-height: 0.9;
     margin-top: 120rem;
@@ -273,6 +272,9 @@ h1 {
   }
   a {
     text-shadow: 1px 1px black;
+  }
+  #bio-txt {
+    width: 100%;
   }
   #foota {
     font-size: 30rem;
