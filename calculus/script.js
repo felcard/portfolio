@@ -117,7 +117,7 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement(KeyNum, { keys: keypad, onPress: this.onKeyPress }))), /*#__PURE__*/
 
 
-      React.createElement("div", { id: "sign" }, "by F C Neme")));
+      React.createElement("div", { id: "sign" }, "by F N Cardini")));
 
 
   }}

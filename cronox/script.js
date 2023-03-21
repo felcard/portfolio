@@ -210,7 +210,7 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
 
       React.createElement(Switch, { onTimeStart: this.onTimeStart }), /*#__PURE__*/
       React.createElement(Reset, { onReset: this.onReset }), /*#__PURE__*/
-      React.createElement("br", null), "by f c Neme"));
+      React.createElement("br", null), "by F N Cardini"));
 
 
 
